@@ -56,8 +56,9 @@ const Racecondition = async (nominal, namaAdmin, idDonasi) => {
     await db.end();
   }
 };
+// Async
 (async () => {
   await Racecondition(500_000, "roy", 1);
-  await Racecondition(1_000_000, "rara", 1);
+  await Racecondition(1_000_000, "rara", 1); 
   await Racecondition(500_000, "bila", 1);
 })();

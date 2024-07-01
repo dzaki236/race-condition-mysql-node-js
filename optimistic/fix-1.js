@@ -11,7 +11,7 @@ const RaceconditionOptimistic = async (judulYangDicari, judul) => {
   });
 
   try {
-    // Cek bila donasi < 0
+    // 
     const [dataArticle] = await db.execute(
       "SELECT * FROM article WHERE judul = ?",
       [judulYangDicari]

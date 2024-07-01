@@ -49,3 +49,4 @@ const Racecondition = async (nominal, namaAdmin, idDonasi) => {
 Racecondition(500_000, "roy", 1);
 Racecondition(1_000_000, "rara", 1);
 Racecondition(500_000, "bila", 1);
+// Lost Update 
